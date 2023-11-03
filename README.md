@@ -15,7 +15,7 @@ allprojects {
 Add it in your build.gradle (app):
 ```groovy
 dependencies {
-    implementation 'com.github.visionplus-development:visionplus-bss-android:$latest_version'
+    implementation 'com.github.visionplus-development:android-auth-sdk:$latest_version'
 }
 ```
 
