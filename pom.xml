@@ -6,5 +6,63 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>id.visionplus</groupId>
     <artifactId>visionplus-bss-auth</artifactId>
-    <version>0.0.10</version>
+    <version>0.0.11</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android.gms</groupId>
+            <artifactId>play-services-auth</artifactId>
+            <version>20.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.facebook.android</groupId>
+            <artifactId>facebook-android-sdk</artifactId>
+            <version>15.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>androidx.activity</groupId>
+            <artifactId>activity-compose</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>androidx.compose.runtime</groupId>
+            <artifactId>runtime-livedata</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-client-android</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-client-okhttp</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-client-logging</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-client-content-negotiation</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.ktor</groupId>
+            <artifactId>ktor-serialization-kotlinx-json</artifactId>
+            <version>2.3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-serialization-json</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>androidx.navigation</groupId>
+            <artifactId>navigation-compose</artifactId>
+            <version>2.7.4</version>
+        </dependency>
+    </dependencies>
 </project>
