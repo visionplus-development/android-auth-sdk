@@ -1,4 +1,1 @@
-install:
-  - |
-    FILE="android-auth-sdk.aar"
-    mvn install:install-file -Dfile=$FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=0.0.4 -Dpackaging=aar -DgeneratePom=true
+install: true
