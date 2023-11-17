@@ -24,6 +24,28 @@ dependencies {
 ```
 
 
+## Prerequisite (*for the meantime*)
+Before integrating the Android BSS SDK, ensure that the following dependencies are included in your project. If you're already using any of them, there's no need to add them again:
+```kotlin
+dependencies {
+    implementation("androidx.activity:activity-compose:1.7.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.3")
+    implementation("androidx.navigation:navigation-compose:2.7.4")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("com.facebook.android:facebook-android-sdk:15.1.0")
+
+    val ktorVersion = "2.3.5"
+    implementation("io.ktor:ktor-client-android:$ktorVersion")
+    implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
+    implementation("io.ktor:ktor-client-logging:$ktorVersion")
+    implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+}
+```
+
+
 ## Usage
 ### Configuration
 Initialize the SDK **(*required*)** in your application class (.Application)
