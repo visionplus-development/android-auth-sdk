@@ -3,7 +3,7 @@
   "component": {
     "group": "id.visionplus",
     "module": "visionplus-bss-auth",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-0.0.16.aar",
-          "url": "visionplus-bss-auth-0.0.16.aar",
-          "size": 1220325,
-          "sha512": "c2371cbe1d8f076391a63580260c7523c263e3612cfa1e42b8f3095c2d06052d671ab6295693c244349acd39b858be408c3d94c4e546c0b355241993fb4afb3c",
-          "sha256": "eb43e1bee3ade1f1ad1d61e36833456ba6f3ba5e9e01ed3cea1d0a620059f6c5",
-          "sha1": "039931bf08fc74cad3e7f22145511f8d290eb7f9",
-          "md5": "cdbd1fea8d2c0f73faeaeab6f438b72c"
+          "name": "visionplus-bss-auth-0.0.17.aar",
+          "url": "visionplus-bss-auth-0.0.17.aar",
+          "size": 1221061,
+          "sha512": "5b4381a43987bd1ed2f670840e74b99ae1f2ef569f1a4a684ae6fe66270fe4e7e2f9451d117afc3786c2bfe9962cc1a5dbeb99604033e43e8ab09d550fc12a55",
+          "sha256": "6a76519c4875c425fa356e0000a2de1c346dbf37de35d27502094a6d00b2c1a0",
+          "sha1": "f84ca0164623f9e19448cffaa61850ac5e70f850",
+          "md5": "06ef8c380b3fbba7657f3b16160b9754"
         }
       ]
     },
@@ -194,13 +194,13 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-0.0.16.aar",
-          "url": "visionplus-bss-auth-0.0.16.aar",
-          "size": 1220325,
-          "sha512": "c2371cbe1d8f076391a63580260c7523c263e3612cfa1e42b8f3095c2d06052d671ab6295693c244349acd39b858be408c3d94c4e546c0b355241993fb4afb3c",
-          "sha256": "eb43e1bee3ade1f1ad1d61e36833456ba6f3ba5e9e01ed3cea1d0a620059f6c5",
-          "sha1": "039931bf08fc74cad3e7f22145511f8d290eb7f9",
-          "md5": "cdbd1fea8d2c0f73faeaeab6f438b72c"
+          "name": "visionplus-bss-auth-0.0.17.aar",
+          "url": "visionplus-bss-auth-0.0.17.aar",
+          "size": 1221061,
+          "sha512": "5b4381a43987bd1ed2f670840e74b99ae1f2ef569f1a4a684ae6fe66270fe4e7e2f9451d117afc3786c2bfe9962cc1a5dbeb99604033e43e8ab09d550fc12a55",
+          "sha256": "6a76519c4875c425fa356e0000a2de1c346dbf37de35d27502094a6d00b2c1a0",
+          "sha1": "f84ca0164623f9e19448cffaa61850ac5e70f850",
+          "md5": "06ef8c380b3fbba7657f3b16160b9754"
         }
       ]
     }
