@@ -88,3 +88,28 @@ val activityForResult = registerForActivityResult(ActivityResultContracts.StartA
 }
 VPAuth.register(this, activityForResult)
 ```
+
+
+### Verify by Email (deeplink)
+Initiates the email verification process for a user account.
+The verification process requires a session ID and user identity for authentication which are get from deeplink url.
+Upon successful verification, the user is redirected to a success page then automatically open login page. In case of failure, the redirection is to a failed page.
+```kotlin
+val activityForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+    when (result.resultCode) {
+        Result.SUCCESS -> {
+            // TODO: success action
+            val token = result.data?.getStringExtra(ResultType.TOKEN)
+        }
+
+        Result.CANCELLED -> {
+            // TODO: cancelled action if needed
+        }
+
+        Result.FAILED -> {
+            // TODO: failed action if needed
+        }
+    }
+}
+VPAuth.verifyByEmail(this, $sessionID, $identity, activityForResult)
+```
