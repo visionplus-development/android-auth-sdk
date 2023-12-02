@@ -3,7 +3,7 @@
   "component": {
     "group": "id.visionplus",
     "module": "visionplus-bss-auth",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -15,12 +15,11 @@
   },
   "variants": [
     {
-      "name": "releaseVariantReleaseApiPublication",
+      "name": "releaseApiElements-published",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.libraryelements": "aar",
-        "org.gradle.usage": "java-api"
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
         {
@@ -33,23 +32,22 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-0.0.17.aar",
-          "url": "visionplus-bss-auth-0.0.17.aar",
-          "size": 1221061,
-          "sha512": "5b4381a43987bd1ed2f670840e74b99ae1f2ef569f1a4a684ae6fe66270fe4e7e2f9451d117afc3786c2bfe9962cc1a5dbeb99604033e43e8ab09d550fc12a55",
-          "sha256": "6a76519c4875c425fa356e0000a2de1c346dbf37de35d27502094a6d00b2c1a0",
-          "sha1": "f84ca0164623f9e19448cffaa61850ac5e70f850",
-          "md5": "06ef8c380b3fbba7657f3b16160b9754"
+          "name": "visionplus-bss-auth-0.0.18.aar",
+          "url": "visionplus-bss-auth-0.0.18.aar",
+          "size": 1303142,
+          "sha512": "f7c5c580e06181f40a1717f5f868c083195eccc4c1c047ac008e5b486e51845c7ba9723e2c6d2d801bf1effc09eb08661aa866cdb4ba9d9cf7fa49c4cd47b2ae",
+          "sha256": "addba6872c3d0590960bbc99fff64a02b1374b8eee7cd01c4439297625b7805f",
+          "sha1": "904fe8118f3814a50ed04b3b22262bb4525b080f",
+          "md5": "39ab3ae7183e2087db55514ba6b2e6a8"
         }
       ]
     },
     {
-      "name": "releaseVariantReleaseRuntimePublication",
+      "name": "releaseRuntimeElements-published",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.libraryelements": "aar",
-        "org.gradle.usage": "java-runtime"
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
         {
@@ -194,13 +192,35 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-0.0.17.aar",
-          "url": "visionplus-bss-auth-0.0.17.aar",
-          "size": 1221061,
-          "sha512": "5b4381a43987bd1ed2f670840e74b99ae1f2ef569f1a4a684ae6fe66270fe4e7e2f9451d117afc3786c2bfe9962cc1a5dbeb99604033e43e8ab09d550fc12a55",
-          "sha256": "6a76519c4875c425fa356e0000a2de1c346dbf37de35d27502094a6d00b2c1a0",
-          "sha1": "f84ca0164623f9e19448cffaa61850ac5e70f850",
-          "md5": "06ef8c380b3fbba7657f3b16160b9754"
+          "name": "visionplus-bss-auth-0.0.18.aar",
+          "url": "visionplus-bss-auth-0.0.18.aar",
+          "size": 1303142,
+          "sha512": "f7c5c580e06181f40a1717f5f868c083195eccc4c1c047ac008e5b486e51845c7ba9723e2c6d2d801bf1effc09eb08661aa866cdb4ba9d9cf7fa49c4cd47b2ae",
+          "sha256": "addba6872c3d0590960bbc99fff64a02b1374b8eee7cd01c4439297625b7805f",
+          "sha1": "904fe8118f3814a50ed04b3b22262bb4525b080f",
+          "md5": "39ab3ae7183e2087db55514ba6b2e6a8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "visionplus-bss-auth-0.0.18-sources.jar",
+          "url": "visionplus-bss-auth-0.0.18-sources.jar",
+          "size": 126243,
+          "sha512": "9260f447d9654617c683a5e1797ad3587fd0e558845849ba6f280a5c525348f4357fbb2310f0535e554355beb2ef6e738606ec0f94106d37ae69a97ab625a208",
+          "sha256": "a41e45a6ebd44cec8e8aa1cf0005a34ce584f6e82d77f930b9da7f8fd2705fc6",
+          "sha1": "d27c0a1cc9769f116f1b32f7fafecd7267fcf367",
+          "md5": "88536edf78653556025ad53857b8ae4b"
         }
       ]
     }
