@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>id.visionplus</groupId>
   <artifactId>visionplus-bss-auth</artifactId>
-  <version>0.0.18</version>
+  <version>0.0.19</version>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -136,6 +136,12 @@
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-serialization-json</artifactId>
       <version>1.6.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.coil-kt</groupId>
+      <artifactId>coil-compose</artifactId>
+      <version>2.5.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

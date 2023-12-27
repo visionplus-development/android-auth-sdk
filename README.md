@@ -28,7 +28,7 @@ dependencies {
 ### Configuration
 Initialize the SDK **(*required*)** in your application class (.Application)
 ```kotlin
-VPAuth.init(this)
+VPAuth.init(this,"mirada_prod")
 ```
 
 Optionally, you can enable debug mode for additional information:
