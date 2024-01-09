@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>id.visionplus</groupId>
   <artifactId>visionplus-bss-auth</artifactId>
-  <version>0.0.19</version>
+  <version>0.0.20</version>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -142,6 +142,12 @@
       <groupId>io.coil-kt</groupId>
       <artifactId>coil-compose</artifactId>
       <version>2.5.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.sentry</groupId>
+      <artifactId>sentry-android</artifactId>
+      <version>7.1.0</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
