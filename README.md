@@ -42,6 +42,15 @@ VPAuth.updateLanguage("en")
 ```
 
 
+### Analytics
+Initialize analytics in your splash or main activity (call once).
+```kotlin
+setContent {
+    VPAuth.initAnalytics()
+}
+```
+
+
 ### Login
 Initiates the login process by opening the login page.
 The user can perform the login action on the opened page. Upon completion, this method returns a token for success or an error message for failure.
