@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>id.visionplus</groupId>
   <artifactId>visionplus-bss-auth</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -147,6 +147,12 @@
     <dependency>
       <groupId>io.sentry</groupId>
       <artifactId>sentry-android</artifactId>
+      <version>7.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.sentry</groupId>
+      <artifactId>sentry-android-okhttp</artifactId>
       <version>7.1.0</version>
       <scope>runtime</scope>
     </dependency>
