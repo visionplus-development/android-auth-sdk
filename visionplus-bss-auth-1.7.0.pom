@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>id.visionplus</groupId>
   <artifactId>visionplus-bss-auth</artifactId>
-  <version>1.6.2</version>
+  <version>1.7.0</version>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -112,6 +112,12 @@
       <groupId>androidx.security</groupId>
       <artifactId>security-crypto</artifactId>
       <version>1.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.recaptcha</groupId>
+      <artifactId>recaptcha</artifactId>
+      <version>18.6.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
