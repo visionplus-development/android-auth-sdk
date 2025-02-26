@@ -3,7 +3,7 @@
   "component": {
     "group": "id.visionplus",
     "module": "visionplus-bss-auth",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,13 +32,13 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.0.aar",
-          "url": "visionplus-bss-auth-1.7.0.aar",
-          "size": 1554113,
-          "sha512": "45707eea7641c7ecd629be9d9a132fe8af8af3c7b8519f1b49951cac4431b39d093ceb316bf01366b0da73b4a8d62cdce910e99c807a02383010340747d930fe",
-          "sha256": "a3efc70ec3386f2d6a30ba26ad1e2f70f578feacc0316b9e3593e86f033e4c4e",
-          "sha1": "39af0597a960ea34313491a94f3694d873eba66e",
-          "md5": "9b2922143ce24f6f40bc0264277b8623"
+          "name": "visionplus-bss-auth-1.7.1.aar",
+          "url": "visionplus-bss-auth-1.7.1.aar",
+          "size": 1556638,
+          "sha512": "2720d3ca9c6ce111e20d5eeb68a5bfb5b2cf7d237d6b74012174b74d9babf5511754c3b56f41b53f24d1b72ea27f40825bdef4d8d8b85eb3bb43ae02dc4877bf",
+          "sha256": "1476c10bc889db01d70830cd3513d48604efeebfeeafc63136994c0068a33496",
+          "sha1": "dac35b686e67cdd541e67479befb7dacc11a37e6",
+          "md5": "116b73042377c73c5b65c7c66b33365a"
         }
       ]
     },
@@ -234,13 +234,13 @@
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.0.aar",
-          "url": "visionplus-bss-auth-1.7.0.aar",
-          "size": 1554113,
-          "sha512": "45707eea7641c7ecd629be9d9a132fe8af8af3c7b8519f1b49951cac4431b39d093ceb316bf01366b0da73b4a8d62cdce910e99c807a02383010340747d930fe",
-          "sha256": "a3efc70ec3386f2d6a30ba26ad1e2f70f578feacc0316b9e3593e86f033e4c4e",
-          "sha1": "39af0597a960ea34313491a94f3694d873eba66e",
-          "md5": "9b2922143ce24f6f40bc0264277b8623"
+          "name": "visionplus-bss-auth-1.7.1.aar",
+          "url": "visionplus-bss-auth-1.7.1.aar",
+          "size": 1556638,
+          "sha512": "2720d3ca9c6ce111e20d5eeb68a5bfb5b2cf7d237d6b74012174b74d9babf5511754c3b56f41b53f24d1b72ea27f40825bdef4d8d8b85eb3bb43ae02dc4877bf",
+          "sha256": "1476c10bc889db01d70830cd3513d48604efeebfeeafc63136994c0068a33496",
+          "sha1": "dac35b686e67cdd541e67479befb7dacc11a37e6",
+          "md5": "116b73042377c73c5b65c7c66b33365a"
         }
       ]
     },
@@ -256,13 +256,13 @@
       },
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.0-sources.jar",
-          "url": "visionplus-bss-auth-1.7.0-sources.jar",
-          "size": 179623,
-          "sha512": "41994811672881ab05d63bfa30835d535dff95e70f4fc55acebf6d50865aaaf5a373d12a6713fdf56f46c44be67bb98311103e2cfefb094bbdaa485724a75193",
-          "sha256": "db47fb17e94359f613f0488e757f8cd892bd84dd5bbb291feb2f2dc1b2f25928",
-          "sha1": "d570f10811eb014f865735d95e672015559be1ab",
-          "md5": "805aa7eb47650ae038fdf6781320cc47"
+          "name": "visionplus-bss-auth-1.7.1-sources.jar",
+          "url": "visionplus-bss-auth-1.7.1-sources.jar",
+          "size": 181157,
+          "sha512": "ccba6ef137e06a3e16301fcdd89849c533a3e9562d7e4e6525899ad71de6c7811c3adc8cdab7f46763f096c2dd49a9797bb6e3af26bff7e34baf49721cad9afe",
+          "sha256": "3fc4ccdc36cacb90940ded43080fafc0f206208d69111d47513163c34c213e60",
+          "sha1": "6c695edcad57545c0472d4b57938d22cb5580370",
+          "md5": "4b4fc998ab7826e1ed10e9ac4def29ae"
         }
       ]
     }
