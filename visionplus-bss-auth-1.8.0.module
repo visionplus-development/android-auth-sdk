@@ -3,14 +3,14 @@
   "component": {
     "group": "id.visionplus",
     "module": "visionplus-bss-auth",
-    "version": "1.7.3",
+    "version": "1.8.0",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "7.3.3"
+      "version": "8.11.1"
     }
   },
   "variants": [
@@ -18,27 +18,28 @@
       "name": "releaseApiElements-published",
       "attributes": {
         "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.10"
+            "requires": "2.1.10"
           }
         }
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.3.aar",
-          "url": "visionplus-bss-auth-1.7.3.aar",
-          "size": 1556162,
-          "sha512": "e1e87ce717dce299b43684ebe4a9c35ad91f2939eb6840fdad41860175a79e056d344dd1161fc98490ba48aec6074ccc62402b0c90661fa736d93500ee40adee",
-          "sha256": "63e85046450014fd8cf8408956806afc0fc65192b31df3127001d9fe79f1ced7",
-          "sha1": "804cf91b59440f0f5c1bb7d8869789361ad6d09f",
-          "md5": "59398fad9c08c1c06ce59f8dc594b2a0"
+          "name": "visionplus-bss-auth-1.8.0.aar",
+          "url": "visionplus-bss-auth-1.8.0.aar",
+          "size": 1681605,
+          "sha512": "15d4d3f5ad94427232b90e4db8f5a4c95f3ba9b76c2117c9bd83174b761e5bbf769234c16e9ebcce31ddee5a9d65a1c174acadf9b37a476510dc5054a54d65b8",
+          "sha256": "dac89d3ed78970f9d12f97c8df7cc5cd2bf46fa59e2f49244f34e0b439ca3379",
+          "sha1": "ed16e03eea692bb0bd2037c3f883f1bf074b6d70",
+          "md5": "5087f8459e961cabcb68712195d41c0a"
         }
       ]
     },
@@ -46,13 +47,14 @@
       "name": "releaseRuntimeElements-published",
       "attributes": {
         "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
         {
           "group": "com.github.chuckerteam.chucker",
-          "module": "library-no-op",
+          "module": "library",
           "version": {
             "requires": "4.0.0"
           }
@@ -61,54 +63,32 @@
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
-            "requires": "1.9.0"
+            "requires": "1.16.0"
           }
         },
         {
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.6.1"
+            "requires": "1.7.0"
           }
         },
         {
           "group": "com.google.android.material",
           "module": "material",
           "version": {
-            "requires": "1.10.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-runtime-ktx",
-          "version": {
-            "requires": "2.6.2"
-          }
-        },
-        {
-          "group": "androidx.activity",
-          "module": "activity-compose",
-          "version": {
-            "requires": "1.7.2"
-          }
-        },
-        {
-          "group": "androidx.compose.runtime",
-          "module": "runtime-livedata",
-          "version": {
-            "requires": "1.5.3"
+            "requires": "1.12.0"
           }
         },
         {
           "group": "androidx.compose",
           "module": "compose-bom",
           "version": {
-            "requires": "2023.06.01"
+            "requires": "2025.04.00"
           },
           "attributes": {
             "org.gradle.category": "platform"
-          },
-          "endorseStrictVersions": true
+          }
         },
         {
           "group": "androidx.compose.ui",
@@ -130,21 +110,7 @@
           "group": "androidx.navigation",
           "module": "navigation-compose",
           "version": {
-            "requires": "2.7.4"
-          }
-        },
-        {
-          "group": "com.google.android.gms",
-          "module": "play-services-auth",
-          "version": {
-            "requires": "20.7.0"
-          }
-        },
-        {
-          "group": "com.facebook.android",
-          "module": "facebook-android-sdk",
-          "version": {
-            "requires": "15.1.0"
+            "requires": "2.8.9"
           }
         },
         {
@@ -155,59 +121,94 @@
           }
         },
         {
-          "group": "com.google.android.recaptcha",
-          "module": "recaptcha",
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
           "version": {
-            "requires": "18.6.1"
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.10.1"
           }
         },
         {
           "group": "io.ktor",
-          "module": "ktor-client-android",
+          "module": "ktor-client-core",
           "version": {
-            "requires": "2.3.5"
+            "requires": "2.3.7"
           }
         },
         {
           "group": "io.ktor",
           "module": "ktor-client-okhttp",
           "version": {
-            "requires": "2.3.5"
-          }
-        },
-        {
-          "group": "io.ktor",
-          "module": "ktor-client-logging",
-          "version": {
-            "requires": "2.3.5"
+            "requires": "2.3.7"
           }
         },
         {
           "group": "io.ktor",
           "module": "ktor-client-content-negotiation",
           "version": {
-            "requires": "2.3.5"
+            "requires": "2.3.7"
           }
         },
         {
           "group": "io.ktor",
           "module": "ktor-serialization-kotlinx-json",
           "version": {
-            "requires": "2.3.5"
+            "requires": "2.3.7"
           }
         },
         {
-          "group": "org.jetbrains.kotlinx",
-          "module": "kotlinx-serialization-json",
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
           "version": {
-            "requires": "1.6.0"
+            "requires": "2.3.7"
           }
         },
         {
           "group": "io.coil-kt",
           "module": "coil-compose",
           "version": {
-            "requires": "2.5.0"
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.recaptcha",
+          "module": "recaptcha",
+          "version": {
+            "requires": "18.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "com.facebook.android",
+          "module": "facebook-android-sdk",
+          "version": {
+            "requires": "18.0.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.2.0"
           }
         },
         {
@@ -226,21 +227,21 @@
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.9.10"
+            "requires": "2.1.10"
           }
         }
       ],
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.3.aar",
-          "url": "visionplus-bss-auth-1.7.3.aar",
-          "size": 1556162,
-          "sha512": "e1e87ce717dce299b43684ebe4a9c35ad91f2939eb6840fdad41860175a79e056d344dd1161fc98490ba48aec6074ccc62402b0c90661fa736d93500ee40adee",
-          "sha256": "63e85046450014fd8cf8408956806afc0fc65192b31df3127001d9fe79f1ced7",
-          "sha1": "804cf91b59440f0f5c1bb7d8869789361ad6d09f",
-          "md5": "59398fad9c08c1c06ce59f8dc594b2a0"
+          "name": "visionplus-bss-auth-1.8.0.aar",
+          "url": "visionplus-bss-auth-1.8.0.aar",
+          "size": 1681605,
+          "sha512": "15d4d3f5ad94427232b90e4db8f5a4c95f3ba9b76c2117c9bd83174b761e5bbf769234c16e9ebcce31ddee5a9d65a1c174acadf9b37a476510dc5054a54d65b8",
+          "sha256": "dac89d3ed78970f9d12f97c8df7cc5cd2bf46fa59e2f49244f34e0b439ca3379",
+          "sha1": "ed16e03eea692bb0bd2037c3f883f1bf074b6d70",
+          "md5": "5087f8459e961cabcb68712195d41c0a"
         }
       ]
     },
@@ -250,19 +251,20 @@
         "org.gradle.category": "documentation",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "files": [
         {
-          "name": "visionplus-bss-auth-1.7.3-sources.jar",
-          "url": "visionplus-bss-auth-1.7.3-sources.jar",
-          "size": 181159,
-          "sha512": "065fddad9f345220ea930e6145910a16e122d7803c6f3f007cd8ca5b9fb80c2c6cc9b108b7307444cec83fe9c76e7450c804271c22c7875d614f26aad702da64",
-          "sha256": "38c0e43b9343a0a6df32628594c45622855b2cdfe4d3d24c297ab60649078ef3",
-          "sha1": "3e1ee6fcf9b65c8011fce8d8a0ddcb29e39f6d5e",
-          "md5": "175e4d0d5b6e1d29b3ca4a320d8f017e"
+          "name": "visionplus-bss-auth-1.8.0-sources.jar",
+          "url": "visionplus-bss-auth-1.8.0-sources.jar",
+          "size": 227443,
+          "sha512": "1b0e5cf746437600d2a8afd6caf685ee1eecd8803b545b34b96465b4a39c3e9d0f003616e17a25d56bf959060f19bd14510088cce1bf7f47ee0015b0a940bbed",
+          "sha256": "b3b31c30025121b6802d513b6b480ed2fc9deb1751b27fb7173ae84bd3c6a45d",
+          "sha1": "a44bf03f536091baf33b30eaa1b2117dbb0e6282",
+          "md5": "bf54aa7b7c76b78b8bc5826346f2cd89"
         }
       ]
     }
