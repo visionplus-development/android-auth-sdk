@@ -9,14 +9,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>id.visionplus</groupId>
   <artifactId>visionplus-bss-auth</artifactId>
-  <version>1.8.5</version>
+  <version>1.9.0</version>
   <packaging>aar</packaging>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>androidx.compose</groupId>
         <artifactId>compose-bom</artifactId>
-        <version>2024.05.00</version>
+        <version>2025.07.00</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.google.firebase</groupId>
+        <artifactId>firebase-bom</artifactId>
+        <version>34.1.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -104,6 +111,27 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-process</artifactId>
+      <version>2.6.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-common</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-config</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-firestore</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>io.ktor</groupId>
       <artifactId>ktor-client-core</artifactId>
       <version>2.3.5</version>
@@ -164,15 +192,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>io.sentry</groupId>
-      <artifactId>sentry-android</artifactId>
-      <version>7.1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.sentry</groupId>
-      <artifactId>sentry-android-okhttp</artifactId>
-      <version>7.1.0</version>
+      <groupId>com.google.android.play</groupId>
+      <artifactId>review</artifactId>
+      <version>2.0.2</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

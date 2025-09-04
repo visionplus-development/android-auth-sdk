@@ -1,14 +1,14 @@
 install:
   - |
-    AAR_FILE="visionplus-bss-auth-1.8.5.aar"
-    MODULE_FILE="visionplus-bss-auth-1.8.5.module"
-    POM_FILE="visionplus-bss-auth-1.8.5.pom"
+    AAR_FILE="visionplus-bss-auth-1.9.0.aar"
+    MODULE_FILE="visionplus-bss-auth-1.9.0.module"
+    POM_FILE="visionplus-bss-auth-1.9.0.pom"
     
     # Install AAR
-    mvn install:install-file -Dfile=$AAR_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.8.5 -Dpackaging=aar -DgeneratePom=true
+    mvn install:install-file -Dfile=$AAR_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.9.0 -Dpackaging=aar -DgeneratePom=true
     
     # Install module file
-    mvn install:install-file -Dfile=$MODULE_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.8.5 -Dpackaging=module -DgeneratePom=true
+    mvn install:install-file -Dfile=$MODULE_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.9.0 -Dpackaging=module -DgeneratePom=true
     
     # Install POM file
-    mvn install:install-file -Dfile=$POM_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.8.5 -Dpackaging=pom -DgeneratePom=true
+    mvn install:install-file -Dfile=$POM_FILE -DgroupId=id.visionplus -DartifactId=visionplus-bss-auth -Dversion=1.9.0 -Dpackaging=pom -DgeneratePom=true
